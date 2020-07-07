@@ -1,5 +1,5 @@
-﻿import { Calendar } from '@fullcalendar/core';
-import dayGridPlugin from '@fullcalendar/daygrid';
+﻿import { Calendar } from '../node_modules/@fullcalendar/core/main.js';
+import dayGridPlugin from '../node_modules/@fullcalendar/daygrid/main.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     var calendarEl = document.getElementById('calendar');
