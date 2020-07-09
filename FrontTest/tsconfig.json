@@ -7,9 +7,17 @@
     "sourceMap": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node"//,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "experimentalDecorators": true
     //"outDir": "wwwroot/js/custom"
   },
+  "include": [
+    "Scripts/**/*.ts",
+    "Scripts/**/*.tsx",
+    "Scripts/**/*.vue"
+  ],
   "exclude": [
     "node_modules",
     "wwwroot"
