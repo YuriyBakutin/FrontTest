@@ -1,7 +1,10 @@
-* {
+%baseFont {
+
   font-family: 'Open Sans', 'ubuntu', arial;
   font-size: 14px;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 * {
-  color: #660280; }
+    @extend %baseFont;
+}

@@ -2,7 +2,7 @@
   "name": "myproject",
   "version": "1.0.0",
   "scripts": {
-    "dev": "npx rollup -c --watch --environment NODE_ENV:development --preserveModules",
+    "dev": "npx rollup -c --watch --environment NODE_ENV:development",
     "prod": "npx rollup -c --environment NODE_ENV:production"
   },
   "devDependencies": {
@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "@fullcalendar/core": "^5.1.0",
-    "@fullcalendar/daygrid": "^5.1.0"
+    "@fullcalendar/daygrid": "^5.1.0",
+    "rollup-plugin-notify": "^1.1.0"
   },
   "-vs-binding": {
     "BeforeBuild": [

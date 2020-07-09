@@ -1,0 +1,7 @@
+%fontColor {
+    color: rgb(102, 2, 128);
+  }
+
+  * {
+      @extend %fontColor;
+  }
