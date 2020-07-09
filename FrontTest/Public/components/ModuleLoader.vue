@@ -13,7 +13,7 @@
       <button v-on:click="buttonClick">Загрузить модуль динамически</button>
     </div>
     <div v-if="moduleLoaded">
-      <img src="../images/ts_logo_.png" class="robot">
+      <img src="../images/robot_.png" class="robot">
     </div>
   </div>
 </template>
@@ -52,8 +52,7 @@ export default class ModuleLoader extends Vue {
   justify-content: space-evenly;
   padding: 0;
   width: 100%;
-  height: 100vh;
-  // background-color: gray;
+  height: 50vh;
 }
 .logo {
   max-width:128px;

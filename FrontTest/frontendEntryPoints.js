@@ -1,3 +1,3 @@
 ﻿export default [
-    './Scripts/main.ts',
+    './Public/main.ts',
 ];

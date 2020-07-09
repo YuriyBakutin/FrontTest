@@ -18,10 +18,8 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-$color_gray: gray;
 body {
   margin: 0;
   padding: 0;
-  background-color: $color_gray;
 }
 </style>
