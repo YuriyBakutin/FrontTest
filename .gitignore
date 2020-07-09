@@ -338,3 +338,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# build folders
+build/
+
+# VS Code settings folders
+.vscode/
