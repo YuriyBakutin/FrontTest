@@ -5,10 +5,10 @@
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
-    "target": "ES2020",
-    "module": "ES2020",
-    "moduleResolution": "Node",
-    "outDir": "wwwroot/js/custom"
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node"//,
+    //"outDir": "wwwroot/js/custom"
   },
   "exclude": [
     "node_modules",
