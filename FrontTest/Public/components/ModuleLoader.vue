@@ -1,5 +1,5 @@
 <template>
-  <div style="width=100vh; height=100vh" class="container">
+  <div class="envelope_ container">
     <div class="imgEnvelope">
       <img src="../images/rollup_logo_.png" class="logo" alt="Rollup">
     </div>
@@ -38,21 +38,25 @@ export default class ModuleLoader extends Vue {
   }
 }
 </script>
-<style lang="scss" scoped="true">
+<style lang="scss" scoped>
 %flexRowEnvelope {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
 }
-.container {
+.envelope_ {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 0;
-  width: 100%;
-  height: 50vh;
+  justify-content: space-between;
+  padding: 6;
+  // margin: 0;
+  // width: 100%;
+  // height: 100vh;
+  // border: 1px solid greenyellow;
+  // padding-bottom: 1rem!important;
+  background-color: lightslategray;
 }
 .logo {
   max-width:128px;
